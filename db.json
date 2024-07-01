@@ -1,0 +1,22 @@
+{
+  "personagens": [
+    {
+      "name": "Donkey Kong",
+      "year": "1981",
+      "image": "/assets/donkeykong.png",
+      "id": 1
+    },
+    {
+      "name": "Pacman",
+      "year": "1980",
+      "image": "/assets/pacman.jpg",
+      "id": 2
+    },
+    {
+      "name": "Mario",
+      "year": "1981",
+      "image": "/assets/mario.jpg",
+      "id": 3
+    }
+  ]
+}

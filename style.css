@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: "Press Start 2P", system-ui;
+}
+
+header {
+  background-color: #8c0375;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.container {
+  display: flex;
+  gap: 20px; /* Adiciona espaço entre as seções */
+  margin: 2rem;
+}
+
+.personagens {
+  width: 70vw; /* Define a largura da seção "personagens" para 60vw */
+  min-width: 0; /* Permite que as seções encolham se necessário */
+}
+
+.personagens h1 {
+  padding-left: 3.7rem;
+}
+
+.form {
+  width: 40vw; /* Define a largura da seção "form" para 40vw */
+  min-width: 0; /* Permite que as seções encolham se necessário */
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#personagens-list {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens se ajustem em várias linhas se necessário */
+}
+
+#personagens-list li {
+  background-color: #f0f0f0;
+  padding: 1rem 2rem;
+  width: 15rem;
+  margin: 1rem;
+  text-align: center;
+  list-style: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#personagens-list img {
+  max-width: 10rem;
+  border-radius: 10px;
+}
+
+#personagens-list button {
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+#personagens-list button img {
+  width: 1rem;
+  height: 1rem;
+}
+
+#add-personagem-form input {
+  padding: 0.8rem;
+  border-radius: 20px;
+  width: calc(100% - 1.6rem);
+  margin-bottom: 10px;
+  border-color: #8c0375;
+}
+
+#add-personagem-form input[type="file"]::file-selector-button {
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: #8c0375;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: none;
+}
+
+#add-personagem-form button {
+  padding: 1rem;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  background-color: #8c0375;
+}
+
+#add-personagem-form button:hover {
+  background-color: rgb(104, 3, 87);
+}
+
+footer {
+  background-color: #8c0375;
+  padding: 1.5rem;
+  color: white;
+}
+
+footer h1 {
+  font-size: 1.2rem;
+}
+
+footer h2 {
+  font-size: 1rem;
+}
+
+footer h3 {
+  font-size: 0.8rem;
+}

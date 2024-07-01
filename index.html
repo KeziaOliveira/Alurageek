@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alurageek</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>Alurageek</header>
+    <div class="container">
+      <section class="personagens">
+        <h1>MEUS PERSONAGENS</h1>
+        <ul id="personagens-list"></ul>
+      </section>
+
+      <section class="form">
+        <h1>ADICIONAR PERSONAGEM</h1>
+        <form id="add-personagem-form">
+          <div class="form-inputs">
+            <input type="text" id="name" placeholder="Nome" required />
+            <input type="text" id="year" placeholder="Ano" required />
+          </div>
+          <input type="file" id="image" accept="image/*" required />
+          <button type="button" id="add-button">
+            Adicionar Novo Personagem
+          </button>
+          <button type="button" id="clear-button">Limpar</button>
+        </form>
+      </section>
+    </div>
+    <footer>
+      <h1>Alurageek</h1>
+      <h2>Feito por Kezia Oliveira</h2>
+      <h3>ALURA LATAM - 2024</h3>
+    </footer>
+
+    <script src="myscript.js"></script>
+  </body>
+</html>
