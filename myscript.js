@@ -1,4 +1,3 @@
-// URL da API
 const apiUrl = "http://localhost:3000/personagens";
 
 // Função para obter os personagens
